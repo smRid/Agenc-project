@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.custom_btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 15px 42px;
+    border-radius: 10px; 
+    background: #6A4DF4;
+    border: 0;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+.title h2{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 609px;
+    margin: 20px auto 0;
+}
+
+/* ==================================================================================== */
+
+
+
+
+.navbar{
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    z-index: 9;
+}
+
+.navbar .navbar-brand{
+    padding: 0;
+}
+
+.navbar .navbar-nav{
+    column-gap: 67px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    padding: 0 !important;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    transition: .4s;
+}
+
+.navbar .navbar-nav .nav-item .active{
+    color: #4756DF;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #4756DF;
+}
+
+/* ================================================= */
+
+.banner_part{
+    background: url(../images/banner.jpg) no-repeat center / cover;
+}
+
+.banner_part02{
+    background: url(../images/banner02.jpg) no-repeat center / cover;
+}
+
+.banner_part03{
+    background: url(../images/banner03.jpg) no-repeat center / cover;
+}
+
+.banner_part04{
+    background: url(../images/banner04.jpg) no-repeat center / cover;
+}
+
+#banner_part .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 315px 0 272px;
+}
+
+#banner_part .overlay .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner_part .overlay .container h1{
+    max-width: 950px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 90px */
+}
+
+#banner_part .overlay .container p{
+    max-width: 621px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 51px 0 40px;
+}
+
+
+.main_banner_slider{
+    position: relative;
+}
+
+.main_banner_slider ul{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 53px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.main_banner_slider ul li button{
+    width: 40px;
+    height: 40px;
+    border: 8px solid #4756DF;
+    background-color: #4756DF;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.main_banner_slider ul .slick-active button{
+    border-color: rgb(255, 255, 255);
+}
+
+/* ==================================================== */
+
+#success_part {
+    padding-top: 171px;
+}
+
+#success_part .container{
+    background: #E0FFF9;
+    padding: 69px 51px 86px 50px;
+    border-radius: 20px;
+}
+
+#success_part .container .left{
+    margin-top: 16px;
+}
+
+#success_part .container .left h3{
+    color:  #6A4DF4;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}
+
+#success_part .container .left h2{
+    color: #151515;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#success_part .container .text{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 110px;
+}
+
+#success_part .container .text .item h4{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#success_part .container .text .item p{
+    color: var(--Dark-03, #737373);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+}
+
+ /* ========================================== */
+
+ #service_part{
+    padding: 149px 0 103px;
+ }
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+.title h2{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 609px;
+    margin: 20px auto 0;
+}
+ 
+#service_part .container .row{
+   row-gap: 20px;
+}
+
+#service_part .main{
+   transition: .4s;
+   text-align: center;
+   padding: 80px 49px 46px;
+   border-radius: 20px;
+}
+
+#service_part .main h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px 0 20px;
+}
+
+#service_part .main p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+#service_part .main:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+} 
+
+ /* ========================================================= */
+
+ #work_part{
+    padding-top: 100px;
+ 
+ }
+
+#work_part img{
+    width: 100%;
+}
+
+#work_part h3{
+    color: var(--Dark-01, #151515);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+#work_part p{
+    color: var(--Dark-03, #737373);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+  /* ========================================================= */
+#agence_part{
+    padding: 150px ;
+   
+}
+
+#agence_part p{
+    margin-bottom: 40px;
+ }
+
+#agence_part .agenceteam{
+    border-radius: 20px;
+    width: 100%;
+    
+}
+

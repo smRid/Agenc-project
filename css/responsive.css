@@ -1,0 +1,119 @@
+
+@media (max-width: 575.98px) { 
+  .navbar {
+      top: 0;
+      background: #ffffff;
+      padding: 10px 0;
+  }
+
+  .navbar-toggler{
+      border: 1px solid #6A4DF4;
+      border-radius: 7px;
+  }
+
+  .navbar-toggler i{
+      color:  #6A4DF4;
+  }
+
+  .navbar-toggler:focus{
+      box-shadow: none;
+  }
+
+      .navbar .navbar-nav {
+          flex-direction: column;
+          gap: 20px 30px;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 30px 0;
+          text-align: center;
+      }
+
+      .navbar .navbar-nav a{
+        border: 1px solid #6A4DF4;
+        border-radius: 7px;
+      }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+color: #000000;
+}
+
+.navbar .custom_btn {
+color: #6A4DF4;
+font-size: 17px;
+padding: 8px 42px;
+border-radius: 7px;
+background: transparent;
+border: 2px solid #6A4DF4;
+width: 100%;
+}
+
+
+/* ===================================== */
+
+
+
+
+#banner_part .overlay{
+  background: rgba(0, 0, 0, 0.6);
+  padding: 315px 0 272px;
+}
+
+#banner_part .overlay .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner_part .overlay .container h1{
+  max-width: 950px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 90px */
+}
+
+#banner_part .overlay .container p{
+  max-width: 621px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 51px 0 40px;
+}
+
+
+.main_banner_slider{
+  position: relative;
+}
+
+.main_banner_slider ul{
+  position: absolute;
+  /* top: 80%; */
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 53px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.main_banner_slider ul li button{
+  width: 40px;
+  height: 40px;
+  border: 8px solid #4756DF;
+  background-color: #4756DF;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.main_banner_slider ul .slick-active button{
+  border-color: rgb(255, 255, 255);
+}
+}

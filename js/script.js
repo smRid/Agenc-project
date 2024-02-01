@@ -15,4 +15,20 @@ $('.main_slider').slick({
     nextArrow: `<i class="fa-solid fa-angle-right right"></i>`,
     centerMode: true,
     centerPadding: '0px',
+    responsive: [
+        {
+          breakpoint: 767.98,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575.98,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 });

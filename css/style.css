@@ -563,7 +563,7 @@ footer {
 }
 
  footer .footer_menu {
-    display: wrap;
+    display: flex;
     justify-content: end;
     column-gap: 80px;
     padding-right: 7px;

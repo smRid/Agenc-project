@@ -244,10 +244,11 @@ border-radius: 10px;
 
 /* ======================================================= */
 
-#form_part .text h2 {
+#form_part .text h2{
 font-size: 30px;
 text-align: center;
 }
+
 #form_part form h3 {
 font-size: 25px;
 }
